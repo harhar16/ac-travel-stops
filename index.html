@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sip Happens</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-3xl mx-auto p-6">
+    <h1 class="text-4xl font-bold mb-6 text-center">☕ Sip Happens</h1>
+    <input type="text" id="zipInput" placeholder="Enter ZIP code" class="w-full p-3 border rounded mb-4" />
+    <button onclick="searchCoffeeShops()" class="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700">Find Coffee</button>
+    <div id="results" class="mt-6 space-y-4"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
